@@ -26,7 +26,7 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := beryllium_defconfig
+TARGET_KERNEL_CONFIG := shadow_defconfig
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
